@@ -9,6 +9,7 @@
   <style>
     html, body {margin:0;padding:0;height:100%;}
     span{font-size:10vw;}
+    input.chckbx{width:5vw;height:5vw;}
   </style>
 </head>
 
@@ -20,8 +21,10 @@
   <option value="vaginalReceptivo">Vaginal Receptivo</option>
   <option value="vaginalInsertivo">Vaginal Insertivo</option>
 </select><br>
-<input type="checkbox" id="condon" onchange="funcion()" > <span>Condon</span><br>
-<input type="checkbox" id="prep"> <span>PPrE</span><br>
+<input class="chckbx" type="checkbox" id="condon" onchange="funcion()" > <span>Condon</span><br>
+<input class="chckbx" type="checkbox" id="prep"> <span>Profilaxis pre exposicion PPrE</span><br>
+<input class="chckbx" type="checkbox" id="std" onchange="funcion()" > <span>Enfermedad de transmision sexual (ETS)</span><br>
+<input class="chckbx" type="checkbox" id="prep"> <span>Tratamiento antirretroviral (TAR)</span><br>
 <input type="button" value="Crar Dialogo" onclick="crearDialogo()">Crear Dialogo</input>
 <div id="dialogo"></div>
 <div id="resultado"></resultado>
