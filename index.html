@@ -2,10 +2,24 @@
 <html>
 <head>
 <title>Title of the document</title>
+<script src="jquery-3.1.0.js"></script>
+
+<script src="CalculadorRiesgo.js"></script>
 </head>
 
 <body>
-Hola desde la nube
+Actividad
+<select onchange="funcion()">
+  <option value="analReceptivo">Anal Receptivo</option>
+  <option value="analInsertivo">Anal Insertivo</option>
+  <option value="vaginalReceptivo">Vaginal Receptivo</option>
+  <option value="vaginalInsertivo">Vaginal Insertivo</option>
+</select><br>
+<input type="checkbox" id="condon" onchange="funcion()" > I have a bike<br>
+<input type="checkbox" id="PPrE"> I have a car<br>
+<input type="button" value="Crar Dialogo" onclick="crearDialogo()">Crear Dialogo</input>
+<div id="dialogo"></div>
+<div id="resultado"></resultado>
 </body>
 
 </html>
