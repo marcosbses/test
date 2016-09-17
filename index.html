@@ -2,31 +2,28 @@
 <html>
 <head>
 <title>Title of the document</title>
-<meta name="viewport" content="width=device-width;height=device-height;" />
 <script src="jquery-3.1.0.js"></script>
 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="CalculadorRiesgo.js"></script>
-  <style>
-    html, body {margin:0;padding:0;height:100%;}
-    span{font-size:5vw;line-height: 6vw;}
-    input.chckbx{}
-  </style>
 </head>
 
-<body>
-<span>Actividad</span>
-<select style="font-size:5vw;width:30vw;" onchange="funcion()">
-  <option value="analReceptivo"><span>Anal Receptivo</span></option>
-  <option value="analInsertivo"><span>Anal Insertivo</span></option>
-  <option value="vaginalReceptivo"><span>Vaginal Receptivo</span></option>
-  <option value="vaginalInsertivo"><span>Vaginal Insertivo</span></option>
+<body onload="pintarResultado(138);$('#resultado').css('font-weight','bold');">
+<span>Actividad Sexual</span>
+<select onchange="funcion()">
+  <option value="analReceptivo">Anal Receptivo</option>
+  <option value="analInsertivo">Anal Insertivo</option>
+  <option value="vaginalReceptivo">Vaginal Receptivo</option>
+  <option value="vaginalInsertivo">Vaginal Insertivo</option>
 </select><br>
-<input class="chckbx" type="checkbox" id="condon" onchange="funcion()" > <span>Condon</span><br>
-<input class="chckbx" type="checkbox" id="prep"> <span>Profilaxis pre exposicion</span><br>
-<input class="chckbx" type="checkbox" id="std" onchange="funcion()" > <span>ETS</span><br>
-<input class="chckbx" type="checkbox" id="prep"> <span>TAR</span><br>
+<label><input class="chckbx" type="checkbox" id="condon" onchange="funcion()" >Uso de Cond&oacuten</label>
+<label><input class="chckbx" type="checkbox" id="prep" onchange="funcion()" >Profilaxis pre exposici&oacuten</label>
+<label><input class="chckbx" type="checkbox" id="std" onchange="funcion()" >Enfermedad de transmisi&oacuten sexual</label>
+<label><input class="chckbx" type="checkbox" id="art" onchange="funcion()" >Tratamiento antirretroviral</label>
 
-<div id="resultado"></resultado>
+<span id="resultado"></span>
 </body>
 
 </html>
