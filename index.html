@@ -8,19 +8,20 @@
 <script src="CalculadorRiesgo.js"></script>
   <style>
     html, body {margin:0;padding:0;height:100%;}
+    span{font-size:10vw;}
   </style>
 </head>
 
 <body>
 <span style="font-size: 10vw;">Actividad</span>
-<select style="width:25vw;" onchange="funcion()">
+<select style="width:50vw;" onchange="funcion()">
   <option value="analReceptivo">Anal Receptivo</option>
   <option value="analInsertivo">Anal Insertivo</option>
   <option value="vaginalReceptivo">Vaginal Receptivo</option>
   <option value="vaginalInsertivo">Vaginal Insertivo</option>
 </select><br>
-<input type="checkbox" id="condon" onchange="funcion()" > I have a bike<br>
-<input type="checkbox" id="PPrE"> I have a car<br>
+<input type="checkbox" id="condon" onchange="funcion()" > <span>Condon</span><br>
+<input type="checkbox" id="prep"> <span>PPrE</span><br>
 <input type="button" value="Crar Dialogo" onclick="crearDialogo()">Crear Dialogo</input>
 <div id="dialogo"></div>
 <div id="resultado"></resultado>
