@@ -12,12 +12,29 @@
 <script src="jquery.mobile-1.4.5.min.js"></script>
 <script src="CalculadorRiesgo.js"></script>
 <style>
+.ui-checkbox{
+width:90vw;
+}
+.boton{
+background: #F0B75F !important;
+color: white !important;
+}
+.boton span{
+background: #F0B75F !important;
+color: black !important;
+}
 
+@media (min-width: 1000px) {
+    body {
+        display: none;
+    }
+}
 </style>
 </head>
 
-<body data-role="page" data-theme="c" onload="pintarResultado(138);$('#resultado').css('font-weight','bold');">
-<span style="margin-left:10px;font-size:100%;font-weight:bold;background-color:#a2c4e7"><u>Riesgo de transmision del VIH en parejas serodiscordantes</u></span>
+<body onload="pintarResultado(138);$('#resultado').css('font-weight','bold');">
+<div data-role="page" data-theme="c">
+<span style="margin-left:10px;font-size:1vw;font-weight:bold;background-color:#a2c4e7"><u>Riesgo de transmision del VIH en parejas serodiscordantes</u></span>
 <br>
 <br>
 <label>Actividad Sexual:<select onchange="funcion()">
@@ -26,12 +43,76 @@
   <option value="vaginalReceptivo">Vaginal Receptivo</option>
   <option value="vaginalInsertivo">Vaginal Insertivo</option>
 </select></label>
+<table>
+<tr>
+<td>
 <label><input class="chckbx" type="checkbox" id="condon" onchange="funcion()" >Uso de Cond&oacuten</label>
+</td>
+<td>
+<a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
+</td>
+</tr>
+<tr>
+<td>
 <label><input class="chckbx" type="checkbox" id="prep" onchange="funcion()" >Profilaxis pre exposici&oacuten</label>
+</td>
+<td>
+<a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
+</td>
+</tr>
+<tr>
+<td>
 <label><input class="chckbx" type="checkbox" id="std" onchange="funcion()" >Enfermedad de transmisi&oacuten sexual</label>
+</td>
+<td>
+<a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
+</td>
+<tr>
+<td>
 <label><input class="chckbx" type="checkbox" id="art" onchange="funcion()" >Tratamiento antirretroviral</label>
+</td>
+<td>
+<a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
+</td>
+</tr>
+</table>
 
 <span style="margin-left:10px;" id="resultado"></span>
+
+</div>
+
+<div data-role="page" id="dialogPage">
+  <div data-role="header">
+    <h2>Condon</h2>
+  </div>
+  <div role="main" class="ui-content">
+    <p>Los estudios epidemiol&oacutegicos que se llevan a cabo en situaciones reales, en donde una persona est&aacute infectada por el VIH y la otra no, indican que el uso constante de los condones de l&aacutetex ofrece un alto grado de protecci&oacuten.<br><a href="https://medlineplus.gov/spanish/ency/article/004001.htm">Sepa mas<a></p>
+  </div>
+</div>
+<div data-role="page" id="dialogPage2">
+  <div data-role="header">
+    <h2>Dialog 2</h2>
+  </div>
+  <div role="main" class="ui-content">
+    <p>I am a dialog 2</p>
+  </div>
+</div>
+<div data-role="page" id="dialogPage3">
+  <div data-role="header">
+    <h2>Dialog 3</h2>
+  </div>
+  <div role="main" class="ui-content">
+    <p>I am a dialog 3</p>
+  </div>
+</div>
+<div data-role="page" id="dialogPage4">
+  <div data-role="header">
+    <h2>Dialog 4</h2>
+  </div>
+  <div role="main" class="ui-content">
+    <p>I am a dialog 4</p>
+  </div>
+</div>
 </body>
 
 </html>
