@@ -38,27 +38,27 @@ return riesgoBase*multip;
 
 function pintarResultado(calculo){
 if(calculo<=1){
-$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo muy bajo)").css("color","#007B19");//verde
-}).fadeIn();
+fadeResultado(calculo,"#007B19","muy bajo");
 return;
 }
 if(calculo<4){
-$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo bajo)").css("color","#D2CF09");//amarillo
-}).fadeIn();
+fadeResultado(calculo,"#D2CF09","bajo");
 return;
 }
 if(calculo<11){
-$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo medio)").css("color","#D68312");//naranja
-}).fadeIn();
+fadeResultado(calculo,"#D68312","medio");
 return;
 }
 if(calculo<138){
-$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo alto)").css("color","#D61212");//rojo
-}).fadeIn();
+fadeResultado(calculo,"#D61212","alto");
 return;
 }
-$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo extremo)").css("color","#B912D6");//violeta
+$(".resultado").fadeOut(function funcion(){$("#resultadoNumero").text("  "+calculo);$("#resultadoTexto").text(" transmisiones cada 10 mil exposiciones (Riesgo extremo)");$(this).css("color","#B912D6");//violeta
 }).fadeIn();
 
 }
 
+function fadeResultado(calculo,color,riesgo){
+$(".resultado").fadeOut(function funcion(){$("#resultadoNumero").text("  "+calculo);$("#resultadoTexto").text(" transmisiones cada 10 mil exposiciones (Riesgo "+riesgo+")");$(this).css("color",color);
+}).fadeIn();
+}
