@@ -13,7 +13,7 @@
 <script src="CalculadorRiesgo.js"></script>
 <style>
 .ui-checkbox{
-width:85vw;
+width:90vw;
 }
 .boton{
 background: #F0B75F !important;
@@ -23,10 +23,13 @@ color: white !important;
 background: #F0B75F !important;
 color: black !important;
 }
+.textoCheckbox{
+text-shadow:none !important;
+}
 
 @media (min-width: 1000px) {
     body {
-        display: none;
+        //display: none;
     }
 }
 </style>
@@ -34,10 +37,10 @@ color: black !important;
 
 <body onload="pintarResultado(138);$('#resultado').css('font-weight','bold');">
 <div data-role="page" data-theme="c">
-<span style="margin-left:10px;font-size:5vw;font-weight:bold;background-color:#a2c4e7"><u>Riesgo de transmision del VIH en parejas serodiscordantes</u></span>
+<span style="margin-left:10px;font-size:3.5vw;text-shadow:none;font-weight:bold;background-color:#a2c4e7"><u>Riesgo de transmision del VIH en parejas serodiscordantes</u></span>
 <br>
 <br>
-<label>Actividad Sexual:<select onchange="funcion()">
+<label class="textoCheckbox">Actividad Sexual:<select onchange="funcion()">
   <option value="analReceptivo">Anal Receptivo</option>
   <option value="analInsertivo">Anal Insertivo</option>
   <option value="vaginalReceptivo">Vaginal Receptivo</option>
@@ -46,7 +49,7 @@ color: black !important;
 <table>
 <tr>
 <td>
-<label><input class="chckbx" type="checkbox" id="condon" onchange="funcion()" >Uso de Cond&oacuten</label>
+<label><input class="chckbx" type="checkbox" id="condon" onchange="funcion()" ><psan class="textoCheckbox">Uso de Cond&oacuten</span></label>
 </td>
 <td>
 <a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
@@ -54,7 +57,7 @@ color: black !important;
 </tr>
 <tr>
 <td>
-<label><input class="chckbx" type="checkbox" id="prep" onchange="funcion()" >Profilaxis pre exposici&oacuten</label>
+<label><input class="chckbx" type="checkbox" id="prep" onchange="funcion()" ><span class="textoCheckbox">Profilaxis pre exposici&oacuten</span></label>
 </td>
 <td>
 <a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
@@ -62,14 +65,14 @@ color: black !important;
 </tr>
 <tr>
 <td>
-<label><input class="chckbx" type="checkbox" id="std" onchange="funcion()" >Enfermedades de Transmision Sexual</label>
+<label><input class="chckbx" type="checkbox" id="std" onchange="funcion()" ><span class="textoCheckbox">Enfermedad de transmisi&oacuten sexual</span></label>
 </td>
 <td>
 <a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
 </td>
 <tr>
 <td>
-<label><input class="chckbx" type="checkbox" id="art" onchange="funcion()" >Tratamiento antirretroviral</label>
+<label><input class="chckbx" type="checkbox" id="art" onchange="funcion()" ><span class="textoCheckbox">Tratamiento antirretroviral</span></label>
 </td>
 <td>
 <a href="#dialogPage" class="boton" data-role="button" data-inline="true" data-rel="dialog" data-transition="flip"><span>?</span></a>
