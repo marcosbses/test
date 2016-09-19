@@ -26,7 +26,9 @@ color: black !important;
 .textoCheckbox{
 text-shadow:none !important;
 }
-
+#resultadoNumero{
+font-size:2vw;
+}
 @media (min-width: 1000px) {
     body {
         display: none;
@@ -35,9 +37,9 @@ text-shadow:none !important;
 </style>
 </head>
 
-<body onload="pintarResultado(138);$('#resultado').css('font-weight','bold');">
+<body onload="pintarResultado(138);$('.resultado').css('font-weight','bold');">
 <div data-role="page" data-theme="c">
-<span style="margin-left:10px;font-size:5vw;text-shadow:none;font-weight:bold;background-color:#a2c4e7"><u>Riesgo de transmision del VIH en parejas serodiscordantes</u></span>
+<div style="background-color:#a2c4e7;"><span style="margin-left:10px;font-size:5vw;text-shadow:none;font-weight:bold;background-color:#a2c4e7">Riesgo de transmision del VIH en parejas serodiscordantes</span></div>
 <br>
 <br>
 <label class="textoCheckbox">Actividad Sexual:<select onchange="funcion()">
@@ -80,16 +82,16 @@ text-shadow:none !important;
 </tr>
 </table>
 
-<span style="margin-left:10px;" id="resultado"></span>
+<span style="margin-left:10px;" class="resultado" id="resultadoNumero"></span><span class="resultado" id="resultadoTexto"></span>
 
-</div>
+</div><!--fin de pagina-->
 
-<div data-role="page" id="dialogPage">
+<div data-role="page" id="dialogPage" data-close-btn="right">
   <div data-role="header">
     <h2>Condon</h2>
   </div>
   <div role="main" class="ui-content">
-    <p>Los estudios epidemiol&oacutegicos que se llevan a cabo en situaciones reales, en donde una persona est&aacute infectada por el VIH y la otra no, indican que el uso constante de los condones de l&aacutetex ofrece un alto grado de protecci&oacuten.<br><a href="https://es.wikipedia.org/wiki/Preservativo">Sepa mas</a></p>
+    <p>Los estudios epidemiol&oacutegicos que se llevan a cabo en situaciones reales, en donde una persona est&aacute infectada por el VIH y la otra no, indican que el uso constante de los condones de l&aacutetex ofrece un alto grado de protecci&oacuten.<br><a href="https://medlineplus.gov/spanish/ency/article/004001.htm" target="_blank">Sepa mas</a></p>
   </div>
 </div>
 <div data-role="page" id="dialogPage2">
