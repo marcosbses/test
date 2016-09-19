@@ -38,27 +38,27 @@ return riesgoBase*multip;
 
 function pintarResultado(calculo){
 if(calculo<=1){
-$("#resultado").text(parseInt(calcularRiesgo())+" transmisiones cada 10 mil exposiciones (Riesgo muy bajo)");
-$("#resultado").css("color","#34DE0B");//verde
+$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo muy bajo)").css("color","#007B19");//verde
+}).fadeIn();
 return;
 }
 if(calculo<4){
-$("#resultado").text(parseInt(calcularRiesgo())+" transmisiones cada 10 mil exposiciones (Riesgo bajo)");
-$("#resultado").css("color","#D2CF09");//amarillo
+$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo bajo)").css("color","#D2CF09");//amarillo
+}).fadeIn();
 return;
 }
 if(calculo<11){
-$("#resultado").text(parseInt(calcularRiesgo())+" transmisiones cada 10 mil exposiciones (Riesgo medio)");
-$("#resultado").css("color","#D68312");//naranja
+$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo medio)").css("color","#D68312");//naranja
+}).fadeIn();
 return;
 }
 if(calculo<138){
-$("#resultado").text(parseInt(calcularRiesgo())+" transmisiones cada 10 mil exposiciones (Riesgo alto)");
-$("#resultado").css("color","#D61212");//rojo
+$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo alto)").css("color","#D61212");//rojo
+}).fadeIn();
 return;
 }
-
-$("#resultado").text(parseInt(calcularRiesgo())+" transmisiones cada 10 mil exposiciones (Riesgo extremo)");
-$("#resultado").css("color","#B912D6");//violeta
+$("#resultado").fadeOut(function funcion(){$(this).text("  "+calculo+" transmisiones cada 10 mil exposiciones (Riesgo extremo)").css("color","#B912D6");//violeta
+}).fadeIn();
 
 }
+
