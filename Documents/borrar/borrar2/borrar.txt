@@ -1,0 +1,565 @@
+
+
+{
+   'geocodedwaypoints' : [
+      {
+         'geocoderstatus' : 'OK',
+         'placeid' : 'ChIJ0c7xv-An5URmexbNS4bMms',
+         'types' : [ 'locality', 'political' ]
+      },
+      {
+         'geocoderstatus' : 'OK',
+         'placeid' : 'ChIJd-vjFK7BppURqzdD1Y2Rcgk',
+         'types' : [ 'administrativearealevel1', 'political' ]
+      }
+   ],
+   'routes' : [
+      {
+         'bounds' : {
+            'northeast' : {
+               'lat' : -33.3800299,
+               'lng' : -56.1641448
+            },
+            'southwest' : {
+               'lat' : -34.9022632,
+               'lng' : -56.5243703
+            }
+         },
+         'copyrights' : 'Datos del mapa 2016 Google',
+         'legs' : [
+            {
+               'distance' : {
+                  'text' : '190 km',
+                  'value' : 189884
+               },
+               'duration' : {
+                  'text' : '2 h 26 min',
+                  'value' : 8752
+               },
+               'endaddress' : 'Departamento de Durazno, Uruguay',
+               'endlocation' : {
+                  'lat' : -33.3814463,
+                  'lng' : -56.5186078
+               },
+               'startaddress' : 'Montevideo, Uruguay',
+               'startlocation' : {
+                  'lat' : -34.9009809,
+                  'lng' : -56.1645441
+               },
+               'steps' : [
+                  {
+                     'distance' : {
+                        'text' : '23 m',
+                        'value' : 23
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 8
+                     },
+                     'endlocation' : {
+                        'lat' : -34.9009649,
+                        'lng' : -56.16429789999999
+                     },
+                     'htmlinstructions' : 'Dirgete al <b>este</b> por <b>Palmar</b> hacia <b>Bulevar General Artigas</b>.',
+                     'polyline' : {
+                        'points' : 'brtEjsxuICo@'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.9009809,
+                        'lng' : -56.1645441
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '72 m',
+                        'value' : 72
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 33
+                     },
+                     'endlocation' : {
+                        'lat' : -34.9016037,
+                        'lng' : -56.1642077
+                     },
+                     'htmlinstructions' : 'Gira a la <b>derecha</b> en la 1 interseccin hacia <b>Bulevar General Artigas</b>.',
+                     'maneuver' : 'turn-right',
+                     'polyline' : {
+                        'points' : '~qtEzqxuIfAKv@E'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.9009649,
+                        'lng' : -56.16429789999999
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '1.1 km',
+                        'value' : 1096
+                     },
+                     'duration' : {
+                        'text' : '4 min',
+                        'value' : 213
+                     },
+                     'endlocation' : {
+                        'lat' : -34.9015139,
+                        'lng' : -56.1749978
+                     },
+                     'htmlinstructions' : 'Gira a la <b>derecha</b> con direccin a <b>Av. Gral. Rivera</b>',
+                     'maneuver' : 'turn-right',
+                     'polyline' : {
+                        'points' : '~utEhqxuIbCMW`B[xAAdARdFJnGHbFDbF?D?vB?FJlDEbIMhBGPuA|Ci@h@'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.9016037,
+                        'lng' : -56.1642077
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '1.7 km',
+                        'value' : 1723
+                     },
+                     'duration' : {
+                        'text' : '5 min',
+                        'value' : 278
+                     },
+                     'endlocation' : {
+                        'lat' : -34.890196,
+                        'lng' : -56.1870619
+                     },
+                     'htmlinstructions' : 'Contina por <b>Av. Daniel Fernndez Crespo</b>',
+                     'polyline' : {
+                        'points' : 'lutEvtzuIuDzB]Tc@Xa@^a@`@ABiAtAs@~@GFOTwB`DoChEyA~B]j@yAvBmBbDArAMNGJq@`BUn@a@x@KPGHSPa@`@KHe@f@eBnAgAz@{AtACjBE~C@PYRk@Se@GK?I?Q@GBC@OJe@^w@rCER'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.9015139,
+                        'lng' : -56.1749978
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '64 m',
+                        'value' : 64
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 12
+                     },
+                     'endlocation' : {
+                        'lat' : -34.890185,
+                        'lng' : -56.1877611
+                     },
+                     'htmlinstructions' : 'Gira levemente a la <b>izquierda</b> con direccin a <b>Av. de las Leyes</b>',
+                     'maneuver' : 'turn-slight-left',
+                     'polyline' : {
+                        'points' : 'vn}sEb`}uICn@?r@?f@'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.890196,
+                        'lng' : -56.1870619
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '0.7 km',
+                        'value' : 706
+                     },
+                     'duration' : {
+                        'text' : '3 min',
+                        'value' : 156
+                     },
+                     'endlocation' : {
+                        'lat' : -34.8906336,
+                        'lng' : -56.1954675
+                     },
+                     'htmlinstructions' : 'Contina recto hacia <b>Colombia</b>',
+                     'maneuver' : 'straight',
+                     'polyline' : {
+                        'points' : 'rn}sEnd}uIAd@ANAdBDxEXtEDv@FpABj@Bd@FpADpBBj@N`FD`F?F@D?Z'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.890185,
+                        'lng' : -56.1877611
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '89 m',
+                        'value' : 89
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 15
+                     },
+                     'endlocation' : {
+                        'lat' : -34.88983400000001,
+                        'lng' : -56.1955512
+                     },
+                     'htmlinstructions' : 'Gira a la <b>derecha</b> con direccin a <b>Rambla Sud Amrica</b>',
+                     'maneuver' : 'turn-right',
+                     'polyline' : {
+                        'points' : 'lq}sEtt~uIDN'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.8906336,
+                        'lng' : -56.1954675
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '1.0 km',
+                        'value' : 1015
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 86
+                     },
+                     'endlocation' : {
+                        'lat' : -34.8820966,
+                        'lng' : -56.2003371
+                     },
+                     'htmlinstructions' : 'Gira levemente a la <b>izquierda</b> con direccin a <b>Rambla Edison</b>',
+                     'maneuver' : 'turn-slight-left',
+                     'polyline' : {
+                        'points' : 'll}sEdu~uIeAXk@Zk@l@m@bAg@pA[z@a@r@c@b@i@`@k@Ri@Ju@FY@i@DmBJ{AFmBLgBJeALu@Xm@^w@n@u@r@iAlAqApAeBbB'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.88983400000001,
+                        'lng' : -56.1955512
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '0.8 km',
+                        'value' : 799
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 69
+                     },
+                     'endlocation' : {
+                        'lat' : -34.8774524,
+                        'lng' : -56.2069912
+                     },
+                     'htmlinstructions' : 'Contina por <b>Rambla Dr. Baltasar Brum</b>',
+                     'polyline' : {
+                        'points' : 'b|{sEbsvIQP]^W^uBtCeCbDMR}CpE{AbCw@nA}BvEu@zAiBvD'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.8820966,
+                        'lng' : -56.2003371
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '0.6 km',
+                        'value' : 649
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 36
+                     },
+                     'endlocation' : {
+                        'lat' : -34.874096,
+                        'lng' : -56.2127929
+                     },
+                     'htmlinstructions' : 'Contina recto por <b>Rambla Dr. Baltasar Brum</b>',
+                     'maneuver' : 'straight',
+                     'polyline' : {
+                        'points' : '`{sEt|`vIuChF{@`BaApBkA~BkA|Be@v@GJW`@GPWh@i@jAi@zAW`A@|@?@'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.8774524,
+                        'lng' : -56.2069912
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '4.2 km',
+                        'value' : 4186
+                     },
+                     'duration' : {
+                        'text' : '3 min',
+                        'value' : 201
+                     },
+                     'endlocation' : {
+                        'lat' : -34.864353,
+                        'lng' : -56.2513438
+                     },
+                     'htmlinstructions' : 'Incorprate a <b>Carretera 1</b>',
+                     'maneuver' : 'merge',
+                     'polyline' : {
+                        'points' : 'bjzsE|`bvIGZe@fCWtAi@`BWr@[x@i@pA@r@c@n@e@n@gDdEg@r@mI|Ki@v@Yf@Yl@m@nAOj@Qj@Oh@Qt@QjAIv@Ed@Gd@Ef@Cj@Ar@AZ?Z@d@@d@Bh@Bj@Fr@@PXbBVfA`@vAZ~@Xp@`@r@d@v@`AvAbBxBbApBd@nAbAXjARvA|A`LFp@DPHb@n@bEd@zDTvARjBJtADzADz@IjBUjC]pB[vAg@|A[l@Q^aAhBgArAaBrB?@oJrLBnBw@fAoBbCcD|DeDhEgBtCA@i@lAa@nA[nAYxAc@xCc@xC'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.874096,
+                        'lng' : -56.2127929
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '17.4 km',
+                        'value' : 17399
+                     },
+                     'duration' : {
+                        'text' : '13 min',
+                        'value' : 799
+                     },
+                     'endlocation' : {
+                        'lat' : -34.7216061,
+                        'lng' : -56.2457246
+                     },
+                     'htmlinstructions' : 'Mantente a la <b>izquierda</b> para continuar por <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>.<div style='font-size:0.9em'>Contina hacia Carretera 5</div>',
+                     'maneuver' : 'keep left',
+                     'polyline' : {
+                        'points' : 'dmxsEzqivIUpBQjAIb@S`AAD@lAcAjCo@fAk@`Ao@z@u@z@s@r@u@j@m@`@u@`@s@q@Zs@Vq@Pq@Ls@Fi@FA?sAHw@?s@AsAIw@Gk@Kq@SWGOEuMwDcBg@mIaCqDs@kDe@D@}AKq@E}CKiCCeC?mKEiHAgDAeK@qD?yP?eGA]?C?[AaCCa@AcBIiBOBWoAYuA@uAk@CAiAe@{A{@Ae@w@e@kAaAkDmCw@e@GEcAg@eA@WIs@UmB[AKgACm@?O?a@?s@Dg@@mANyARqB^BZ[Ho@NaAqAh@]N}@h@y@j@c@XgAbAAdA{@fAo@dAqClFgAlBaAvAs@~@k@r@q@r@s@p@sBfBg@^i@^cAl@}Az@cBl@uAf@s@Rq@P}@Xc]lJ{Bj@kg@lNqG|A{@kEnAc@L@JqBt@aCrA{BzAmF|DcBrAeb@jZ@ZwA`As@f@o@f@aElC}AjAq@b@s@d@{@h@Ab@s@Zw@Z{@}@Vq@R}@RmARa@Fm@HK@O@KBG?wAHoABeA?uACyAIk@Gy@IUCa@Ga@GOCaAUC?a@Ec@GMEg@OA]{@[y@@s@@YOSMcCsAqBgAe@W{@g@mAq@kAo@w@a@g@[qBiAFoCMKe@Y{@c@aXiOwIsEoAs@iAm@gAo@uT}LoY}OaLqGyPkJqAs@aNI}BkAi@[o@e@eB}@kEmBsAk@]UoCBOGcA]aA[eD}@oFqAi@IgXuEgHwA[GuCa@mI}AoB@qKeBoAOyX}EwPyCwZgHUMUQOMKIEG'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.864353,
+                        'lng' : -56.2513438
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '0.1 km',
+                        'value' : 115
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 13
+                     },
+                     'endlocation' : {
+                        'lat' : -34.7206052,
+                        'lng' : -56.2456495
+                     },
+                     'htmlinstructions' : 'Contina recto',
+                     'maneuver' : 'straight',
+                     'polyline' : {
+                        'points' : '`q|rEvnhvIGEQIQGOCOAO@KBKBKBK@O@S?WA'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.7216061,
+                        'lng' : -56.2457246
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '22.7 km',
+                        'value' : 22718
+                     },
+                     'duration' : {
+                        'text' : '16 min',
+                        'value' : 968
+                     },
+                     'endlocation' : {
+                        'lat' : -34.5226085,
+                        'lng' : -56.2706892
+                     },
+                     'htmlinstructions' : 'Contina por <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'polyline' : {
+                        'points' : 'xj|rEhnhvIwEiA}Ey@wMuCaCe@m@KeOeDyEaAeKqBsV}EiFgAGAcIaBEAaCi@}McDiBa@sCg@}@YcCg@gBQwDScAGu@@CNeCeB`@qFp@qBXy@NiAPIBmAP{HrAmTtDcCsBRkBFkAAuNGcOEwMGoGGmKGwOKQ@oBB{AAiDC{BAq@@eJHwIHcLL}OPgJHaKL}FDmEDyED}DPiBR[DaBXuAZ[Fw@Pa@H@J{@VAZyAj@KDKDIFu@b@UPaAf@}Az@g@V]RAf@g@VSLIDDbBkAn@{@d@e@ViDhBWLs@f@SLa@ZeBxAiJ|HgCvBi@b@k@f@c@^c@s@j@cBvAcAz@s@j@c@e@XYRYPa@TUJUL{@^y@Z{@Xy@X{@XgBj@{E~AoFhB{CbAeBl@}@Zo@RUH[LiFfBEBwBt@eA^IBy@XDhAsAd@AMDyDrAgHdCE@kDjAwBp@aAXCp@yAd@wEvAuC|@C?cF|AkCt@@LqErAE@cARI@cBh@s@Rw@Ni@Fc@By@?eNa@]AsFOuEO}BGW?i@@a@@YB[DiMhB}@NCZaAJeDd@cIzAk@JeAPu@HOBwP`@oADM?E@aHXc@BC?y@Dc@@w@DYDs@Hw@HsAP{BPoGn@iALwBVMvAeHv@{C}Eh@O@aa@lEaMxAgJz@k@H{Ej@eEf@K@MBk@Fq@HiBRgALDo@HcBRyBVSBUBcBRm@D{ANmAJiGp@oALq@RaGd@WBkCX{C^mIbAaKfAAPu@P}Ab@HpB{C|@qA^aCx@GBiM~EyCfA}IdDmDpAyEdBCv@gAZKDy@Rm@Fq@Ho@BeCAqASKCYEc@GcPkCgB[]GoGcAuLkBmEo@yM{BeFw@cD@AGkBIgDGuIQgACaKEyFCUGc@E@Co@GSEQEQIQIUK'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.7206052,
+                        'lng' : -56.2456495
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '49.6 km',
+                        'value' : 49623
+                     },
+                     'duration' : {
+                        'text' : '34 min',
+                        'value' : 2059
+                     },
+                     'endlocation' : {
+                        'lat' : -34.0987295,
+                        'lng' : -56.1962918
+                     },
+                     'htmlinstructions' : 'En la rotonda, toma la <b>2.</b> salida y contina por <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'roundabout-right',
+                     'polyline' : {
+                        'points' : 'huuqExjmvIAAAAAAAAA?AAKGGCGAG?E?G@G@GBA@A@A@C@ABA@A@ABI@OD]Ji@Jo@HYD[Ne@DqAReATgA^s@^u@^mJrGuKrHgAx@{J`HoA~@sI|FFnDiBrAuGnEQLOJu@^o@VBj@{@XcARo@Li@HgAH{AJaKXoBFuPh@sBD}ADyHPgA@gB?gA?sB?]AqFAsHAgDCqXCqAAoKCgC@cj@Kk@?c[EBEu@CyAQ}AUmAWuAe@s@WeAg@y@c@k@[Am@k@a@oBgBmC{Cs@y@sMPu@w@aSeUeEeFw@aAcDsD}GeIkAgAw@o@}@i@k@Yi@Ui@QAU{@Oo@IgIe@eCOm@C}ESyZqAiH]g[sAcOs@qwAIc@qLc@@CoFWuAOqC@yCi@eBSeBS{WoEqLiBgAScEs@gBUHgAmDk@SEkASeASu@Mi@IIAeHmAkGaAkFw@}HmAcAOaO{BC@}Do@uGeAiEq@iQsCiC@{@MyGAmBYoMoBiHeAw@KmHmAaAQcEq@iMmBsLmBgAQaBOqCWkIs@cCSuUuByBQaCUkJAwHs@e@Es]uCsBWyk@gFe@EkTsBYCsSgBiBOwBSoCWsE@qGi@cDY{SmBkUuB{AKoKy@{KaAc@EmXeCeE@s@EiV{B}MmAgCUgCSqK}@mHo@AK}@OiASs@Sw@So@W{@]{@a@AAk@]w@g@eAs@wFeEwFgEcPqLg@@}NqKcCgBkMqJyAeA{HsFoNuKgKkHiDgCeBsAyJoHHcFGkEoA{@cCaBq@a@s@]c@QyFCaGCIDiEeB{GoC}GiCCAqF{BMEcBs@EBuAo@Bo@}Ae@qA[y@MyAMQEWA}COyAGeEMoDG}Uq@YADIqLUgTq@{CKqJWuBGmVy@aEMyNUcZIw@AuLIsA?aEGsHBuKGsKGi@?iCAyDCE?yLEeLImDAUAo@As@Eo@Gq@GAQuAWaFqAuN{DcHkBmD}@wKqC}Bm@yOaEwBk@c@MyF{AuPoEeCm@aBe@QEKCIEcGyAuEqA}E}AkDmAmJD{Aa@cHeB{Aq@{DgBoJ}Cg@QsMmEiLyDq@UgNuEqKmDsHeCwCcA[M{Ae@{@WwJeDkIoCaEuAgGsBm@SaHwBcHaCqJeD@M{Ag@CAwHuC}D}AsD}AaC{@}GoCKEcCeAqBy@kAk@mAm@{C{AgBaAwAu@iBaAm@[s@e@m@e@m@c@MMk@i@uEcFUWeFmFuFGA{@u@g@q@@m@We@QEAy@Wm@Mu@Ky@IsFQiIMcC@m@@uJVqDJyEDsKDS?eKF{AFy@FaALM@kCd@oVnEmNfCQDgBZiCj@}Bf@aDz@uEpA{EbAuA^}Bl@YHk@NqCt@k@NoBb@{DlAWHoCdAgBt@uGpCKD}MzF{D`B}@f@mEfB{HfDgAb@i@Rk@Na@Hk@FoFgJj@uFuCR}Il@kF^sAPeATmA^EnAEpAgLpDaBh@sJ~CeGnB{GhBaJrAALOlB'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.5226085,
+                        'lng' : -56.2706892
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '54 m',
+                        'value' : 54
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 7
+                     },
+                     'endlocation' : {
+                        'lat' : -34.09825319999999,
+                        'lng' : -56.1961612
+                     },
+                     'htmlinstructions' : 'Gira levemente a la <b>derecha</b> hacia <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'turn-slight-right',
+                     'polyline' : {
+                        'points' : '`|boExy~uIBY'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.0987295,
+                        'lng' : -56.1962918
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '2.2 km',
+                        'value' : 2238
+                     },
+                     'duration' : {
+                        'text' : '2 min',
+                        'value' : 145
+                     },
+                     'endlocation' : {
+                        'lat' : -34.0843086,
+                        'lng' : -56.2128342
+                     },
+                     'htmlinstructions' : 'En la rotonda, toma la <b>2.</b> salida en direccin a <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'roundabout-right',
+                     'polyline' : {
+                        'points' : '`yboE~x~uIOEMCI?I@GBGDIHEHAL@H?H@Hy@Py@LE@w@TsAf@i@VID}@b@}@h@u@f@w@j@gA`AQPg@h@gAtAuCpEaBjCCDCByDhG{BtDQZkClEiB|CQZMRoIzMUb@W`@iJfOeA`BcBpCoBdDK?E@KHg@^'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.09825319999999,
+                        'lng' : -56.1961612
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '85.2 km',
+                        'value' : 85172
+                     },
+                     'duration' : {
+                        'text' : '56 min',
+                        'value' : 3350
+                     },
+                     'endlocation' : {
+                        'lat' : -33.3957413,
+                        'lng' : -56.5220081
+                     },
+                     'htmlinstructions' : 'En la rotonda, toma la <b>cuarta</b> salida y contina por <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'roundabout-right',
+                     'polyline' : {
+                        'points' : '|a`oEdabvIA@A?A@A@?@A@A@?@A@?@A@?@?@A@?@?@?D?B?@?B?B@@MVGPAFALy@pAsBfDyGtKQZsGpKsDdG[l@u@hBc@hAKXSp@[jAWdA[fB?@YvCU|CMbBkAnMqAlNo@hGEf@Gt@WfCM|@Mv@Qt@St@Yv@@`AOZO^g@z@u@bAc@f@i@f@g@`@}@j@y@b@e@Ri@PA@KFo@Po@Jy@JyFn@uI`Ae@FoN~AN`Bw@JoFh@]DYF}Fn@mPjBoHz@eIz@[DgEb@sHx@g@FI@gKlAkBTWBiMbBo[pDO@kDX[ByFr@g@DuCZo@Ds@DaA@uHNqHNuGJqNCiKb@eCJsKNc@@uPTaLPmD?gFAaEDeCFoQb@}Ng@?yBBgDBsA@{@CACcAG}AMiQiBiAM}@ImEa@iMoAyOyAkAKqLgAkKeAiGo@wD@eDYiPBuFi@}J{@yNoAsOsAmBQcOuAmPBgFe@wFi@gLiAgIw@AGy@?w@DAHmDd@H`AKB@DqStCmC^qG`AuBZK@Dd@kAPgB`@qBd@gV`G}KjCq@PcI`BKBRzE{J`CaFlAiQlDwP`EaBb@Cf@a@JP|DeRvEqD|@sGpAk@F{AT[FwPtCeLpBkBVmCd@@HuQtCqDl@cN~BgCb@cGjAcARuPfCyN`CSDgLvByRjDyHtAqK|AyHhAo@JA?o@JeHxAkDl@sOdCcEp@iEr@qATaARy@PMDi@PBj@sFbCwNpGsErBkMtF}RrIDtAq@Z}NnGuWfLGBkIrDs@^o@^OHgAt@yDvCu@j@iM~JAt@mPnMqB|AAt@cInGq@n@kEdEiBhBqApAqKvKmDpD{JbKu@v@uLtLsSzSo@t@oE`FaC~B{IrI{DvDSRcAz@s@h@s@b@UJYNg@X}@Z{@XmAXsATeALoDZsQ|BoDd@kEh@qAPYDqPvBUBGt@Gv@gH|@oRbCgD`@iDb@YBeBTWDiKnAwV|CmNfBSBKBwBVuP`CiSrCUBiDeI`AoANiANeCXwKpAaKnAsH`AqH`AEd@{ALmM~@u@DqFd@{V`BcF`@gALgANe@Hm@JwFxAODgPbEsFvA}FxAkKfCwVjGeRvEmBj@oLfDqFrAQfEuBf@iTnFaQlEQD{@RoBd@yPlEoEhAy@LI@@DOBs@DaB?{CBm@?aEAY@}B?mF@eE@uD@m@@kA?wE?uAAHMwACY?kEGgBCA?aDEeCC}CGqAEiACeFIA?e@AeDC{BCyBAcC?gA?{CEkAEoDGy@CuBCeBC]?c@?e@?m@@s@Dk@Dm@Fe@F{@Ny@Pc@Jg@PeAgAb@]Pq@cAn@sA~@u`@hXoD`CuZlSk[nTe@aD~BiE~CcBbAmB|@}Ah@iBaCoBVC@cW`@ySz@oEPsk@dBc[jAmOb@mHTiRl@G?sK^cBDcd@vAmFPqEJe@fAsk@`CkIXiITsDC@qE~@iLzCu@RwDbAsi@`OyW~GaQtEsZ|HyMjDiPpEsXfHyi@tNmJbCJ`CQDc^hJsTzFaTtFaItBgSjF{KrCyMjDsPnEgCn@kDpAqFhA?@mCt@qBl@qDvAw@kGbDg@Z@Vy@f@iDfCwd@p[aJrGwC~BgBvAq@d@qPnLgIzF{d@r[{R~NiPnLiAx@sQjM]VyNdKyQrMuGpEiHlFkFpDmDfCaBjAwTpOsHlFqA~@}DxCgD|BSnNaGvEib@nZod@vZyLnIWPBhAeAt@w@r@{JdLIJsLjMk@n@WZmFnFsB|B}BfCuKvLST}BhCmLvMUV@`@kCxC]ZsI~Iw@x@WXFxEcIvJgOfPBdBwTlVwEbFgFrFwJhJeOtM}@v@aFnEsEdEeS~QcGrFwSfRN~LqE|DoHnGmHrG}H`HeFvEyW`VgB`ByCjCwCpCsHdHaAbAm@n@}@fAwAjBeEvFkExGkGlIy@hAiA|AmAdBeHfJeCdDqBrCqE`GqAdB}HzJi@n@a@`@a@b@QPSRg@d@q@l@oEhDgGzEyC~BuFlEeGvEgF`EQJuC~BiC~BKHyFdFuFdFqI|HwB~Bs@p@mAjAyDnDsOlNaCnBkExCyB~AiBlAeIzF}EfDyDfCAn@RpMOHoE~CA?q@b@s@b@cAb@oAf@{ClADrAuAl@cAwJhEqEvBOHATWDg@D'
+                     },
+                     'startlocation' : {
+                        'lat' : -34.0843086,
+                        'lng' : -56.2128342
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '2.0 km',
+                        'value' : 1951
+                     },
+                     'duration' : {
+                        'text' : '4 min',
+                        'value' : 269
+                     },
+                     'endlocation' : {
+                        'lat' : -33.3800299,
+                        'lng' : -56.5176238
+                     },
+                     'htmlinstructions' : 'En la rotonda, toma la <b>1.</b> salida y contina por <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'roundabout-right',
+                     'polyline' : {
+                        'points' : 'jryjEpm~wIC?C@CBGDCBABIJEHEDML[RCjAw@^qBbAqAf@mAh@SJaCnAu@XYF]DU@Y@i@Cg@Ic@Ii@Sg@UaCoADeBCA{CBkDmBD}AEC}CBaDcB{@e@cBAaDBgDgBeDeByAq@oAq@wCcB'
+                     },
+                     'startlocation' : {
+                        'lat' : -33.3957413,
+                        'lng' : -56.5220081
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '10 m',
+                        'value' : 10
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 11
+                     },
+                     'endlocation' : {
+                        'lat' : -33.3799894,
+                        'lng' : -56.517714
+                     },
+                     'htmlinstructions' : 'Gira a la <b>izquierda</b> hacia <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>',
+                     'maneuver' : 'turn-left',
+                     'polyline' : {
+                        'points' : 'dpvjEbr}wIGP'
+                     },
+                     'startlocation' : {
+                        'lat' : -33.3800299,
+                        'lng' : -56.5176238
+                     },
+                     'travelmode' : 'DRIVING'
+                  },
+                  {
+                     'distance' : {
+                        'text' : '0.2 km',
+                        'value' : 182
+                     },
+                     'duration' : {
+                        'text' : '1 min',
+                        'value' : 24
+                     },
+                     'endlocation' : {
+                        'lat' : -33.3814463,
+                        'lng' : -56.5186078
+                     },
+                     'htmlinstructions' : 'Gira a la <b>izquierda</b> en la 1 interseccin hacia <b>Brigadier Gral. Fructuoso Rivera</b>/<b>Carretera 5</b>.<div style='font-size:0.9em'>El destino est a la izquierda.</div>',
+                     'maneuver' : 'turn-left',
+                     'polyline' : {
+                        'points' : '|ovjEtr}wIvC~ApAp@x@`@'
+                     },
+                     'startlocation' : {
+                        'lat' : -33.3799894,
+                        'lng' : -56.517714
+                     },
+                     'travelmode' : 'DRIVING'
+                  }
+               ],
+               'trafficspeedentry' : [],
+               'viawaypoint' : []
+            }
+         ],
+         'overviewpolyline' : {
+            'points' : 'brtEjsxuICo@fAKzDSs@zDPjHZ|UDpRUzBCfEyGjEaMdQgMxSsDjFiKlIFpDeA?mAEaAp@aAjGEbEbAnYXvN@`@eFh@mD~EkCtDgOpAqGrAiGbGuQtUcSj@IpOqEbPgC`HqGxIyLpPiBtEuAbKN`ItAtG|B|EnGrKhDhSbD`WSnK}BtIeW~aP`TiBnFiDvTEbJoEvEiE|BkE~@cLMoPyEoWcGmM}@g]K}q@CqJ@{I}BqQeLiDwAiHaAuMjAmFrAgFnCgFjFkIxNeExEiGtEkIdDod@dMex@xTwHbDow@fk@mRhLsKdCaMDuGAeJ}Ccz@ge@{B}@qc@yUaG{CaOuDadAkQqj@wJm[uHw@q@sBSa^sG{fAsTcp@{NyKk@}Q`C{l@xJaXPyr@]sl@AitArAeLdAkE~@mIbDe]fRd@z^sh@bRyn@rTsq@dSEZm]cAaFC}PbCsYpEu^jAm`AzJuaDb^uf@bPmc@rOuGR{Ce@}fAcQwNy@y@@sEy@{A@aFvAeGnAmZfSym@zb@oLtDwu@~BgzCg@{HcAiGiCgGsEkUmXc`@ad@NgNEwAsLAszBwJa@cBgNmBubAPaYwEwyBwmv@gLkbAJahEk@weCUyJgEoeAw@wdAkv@eOkKsQoHkl@wUsMeFwF}@}o@mBgcBqE}aCcAeEWmZwHw{@aUia@mKer@Uo}Bgv@yo@Ub@yPcTkLoZa[JeD{Vg@oXj@i[TuG|@wi@xJS`FcXtGgk@hUsXpKgu@pFmz@vWaL`BOlBBY]IS@@@j@wJ`DsF~DwGbJgT|]qli@{DtEKb@WjAs^zm@B`FmAfIwGnt@{CvKkDnEeEdCaXvDsq@|HkxBnVgNzA}Uf@egA~AufA~AqLDkXcCceA}JswAsMolAaL}h@vGg^~FeuAp}tAz[os@|LwzCng@wn@tKse@rRc{Ajp@uxVkk@re@}dA~eAi`@j@uCpAcHvAsx@|Jiz@nK}cC`[y~@rJob@`D{ItBahBtd@qiA`YmYfHeENmc@Hw|@cAel@k@{JjAsEdBg@vuoA~z@yL|Bqr@pB}dC~HcxA|D}eAnE}oBlh@evCdv@mtClu@ePlEiNxEmK~F{y@ll@mBftAg`Db|BkvAhaAyQxQwj@pm@fBlmBcnAtiAefBd~As]l]{g@zr@sY~^{e@r@gj@`f@sLlL{]vYgu@dh@mSbJ}ShJcC`@k@n@gOnHoFvBaCIcVyLo]sQgNmHzGdE'
+         },
+         'summary' : 'Brigadier Gral. Fructuoso Rivera/Carretera 5',
+         'warnings' : [],
+         'waypointorder' : []
+      }
+   ],
+   'status' : 'OK'
+}
+
